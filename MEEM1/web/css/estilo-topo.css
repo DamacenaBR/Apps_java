@@ -1,0 +1,25 @@
+
+html, body{
+    margin: 0;
+    background: #ebedf0;
+}
+
+#barra_horizontal_topo{
+    border: 1px Solid #009ACD;
+    background:#009ACD;
+    height: 60px;
+    box-shadow: 2px 5px 5px #CCC;
+}
+
+#barra_horizontal_topo > h3{
+    font-family: arial;
+    color: black;
+    margin-left: 80px;
+    margin-top: -30px;
+    font-size: 12px;
+}
+
+#logo_psicologia{
+    margin-top: 10px;
+    margin-left: 20px;
+}

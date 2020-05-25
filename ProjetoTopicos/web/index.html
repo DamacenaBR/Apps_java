@@ -1,0 +1,26 @@
+<c:redirect url="view/index.jsp"/>
+<html>
+    <head>
+        <title>Coe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <h1>Cadastrar Moto</h1>
+        
+        <form action="ControlaMoto" method="post">
+            
+            <input type="text" name="txtMarca" placeholder="Marca" />
+            <input type="text" name="txtCor" placeholder="Cor" /><br><br>
+            
+            <input type="submit" name="btn-cadastrar" value="Cadastrar"/><br>
+            
+        </form>
+        
+        <a href="./ListarMoto?action=list">Motos</a>
+            
+        
+    </center>
+    </body>
+</html>
